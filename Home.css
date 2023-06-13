@@ -1,0 +1,38 @@
+:root{
+ --blue:#00618B;
+}
+
+
+.header{
+    width: 100%;
+}
+
+.header>.headsec{
+    width: 100%;
+    height: 40px;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header>.headsec>.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.dropdown>.btn1{
+    color: white;
+    border: none;
+}
+.dropdown>.btn1:hover{
+    border: none;
+    color: white;
+}
+
+.dropdown>.dm2{
+    padding-left: 20rem;
+
+}
